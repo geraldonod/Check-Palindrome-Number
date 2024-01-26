@@ -18,3 +18,6 @@ def check_palindrome(number):
         print("The number isn't a palindrome!")
 
 #ask user for input
+
+user_input = int(input("Enter a number: "))
+check_palindrome(user_input)
