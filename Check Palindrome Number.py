@@ -5,8 +5,11 @@ def check_palindrome(number):
     
 #use while loop to reverse given number
 
-#use while loop to reverse given number
+    while number > 0:
+        digit = number % 10
+        reversed_number = reversed_number * 10 + digit
+        number //= 10
 
 #if else statement to check reverse and original number is the same
-
+        
 #ask user for input
