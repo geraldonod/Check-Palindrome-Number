@@ -11,5 +11,10 @@ def check_palindrome(number):
         number //= 10
 
 #if else statement to check reverse and original number is the same
-        
+    
+    if original_number == reversed_number:
+        print("The number is a palindrome!")
+    else:
+        print("The number isn't a palindrome!")
+
 #ask user for input
